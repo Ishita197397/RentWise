@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 import { calculateCompatibility } from '../utils/compatibilityScore';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://rentwisee.onrender.com';
 
 const BrowseRoommates = () => {
   const { token } = useAuth();
